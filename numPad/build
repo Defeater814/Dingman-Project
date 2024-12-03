@@ -1,0 +1,4 @@
+#!/bin/bash
+#g++ publish.cpp -o publish -lpaho-mqtt3c
+g++ numPad.cpp derek_LED.cpp -o numPad -lpaho-mqtt3c
+

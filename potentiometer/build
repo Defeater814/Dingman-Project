@@ -1,0 +1,4 @@
+#!/bin/bash
+g++ potentiometer.cpp AnalogIn.cpp -o potentiometer -lpaho-mqtt3c
+#g++ subscribe.cpp -o subscribe -lpaho-mqtt3c
+

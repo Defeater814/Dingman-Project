@@ -1,0 +1,3 @@
+#!/bin/sh
+g++ -o pwm_test_new PWM.cpp util.cpp pwm_test_new.cpp
+g++ pwmSlider.cpp util.cpp PWM.cpp -o pwmSlider -lpaho-mqtt3c

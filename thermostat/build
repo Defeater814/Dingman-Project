@@ -1,0 +1,4 @@
+#!/bin/bash
+g++ thermostat.cpp AnalogIn.cpp derek_LED.cpp -o thermostat -lpaho-mqtt3c
+#g++ subscribe.cpp -o subscribe -lpaho-mqtt3c
+

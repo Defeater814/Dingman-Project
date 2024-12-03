@@ -1,0 +1,5 @@
+#!/bin/bash
+#g++ publish.cpp -o publish -lpaho-mqtt3c
+config-pin p9.12 gpio
+g++ ledToggle.cpp GPIO.cpp -o ledToggle -lpaho-mqtt3c -pthread
+

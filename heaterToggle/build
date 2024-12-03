@@ -1,0 +1,5 @@
+#!/bin/bash
+#g++ publish.cpp -o publish -lpaho-mqtt3c
+config-pin p9.14 gpio
+g++ heaterToggle.cpp GPIO.cpp -o heaterToggle -lpaho-mqtt3c -pthread
+

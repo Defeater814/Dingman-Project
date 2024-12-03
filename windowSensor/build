@@ -1,0 +1,5 @@
+#!/bin/bash
+#g++ publish.cpp -o publish -lpaho-mqtt3c
+config-pin p8.16 gpio_pu
+g++ windowSensor.cpp GPIO.cpp -o windowSensor -lpaho-mqtt3c -pthread
+
